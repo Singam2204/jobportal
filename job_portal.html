@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Portal</title>
+</head>
+<style>
+    body{
+        background-image: url("Images/bg.jpg");
+        background-repeat: no-repeat;
+        background-size: 115%;
+    }
+    header{
+        background-color: rgb(17, 130, 17);
+        color: white;
+        text-align: center;
+        padding-top: 1px;
+        padding-bottom: 1px;
+    }
+    nav{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        
+    }
+    nav a{
+        text-decoration: none;
+        color: white;
+        font-size: 22px;
+    }
+    nav a:hover{
+        background-color: black;
+    }
+    .one{
+        text-align: center;
+    }
+    input{
+        padding: 8px;
+        margin: 5px;
+    }
+    button{
+        background-color: orangered;
+        padding: 8px;
+        cursor: pointer;
+        color: white;
+    }
+    h2{
+        padding-top:10px;
+        font-size: 25px;
+    }
+    .two{
+        text-align: center;
+        margin-left: 60%;
+    }
+    ul{
+        list-style-type: none;
+    }
+    li{
+        border: 2px solid black;
+        text-align: start;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        background-color: white;
+        
+    }
+    p{
+        font-size: 18px;
+    }
+    li h2{
+        font-size: 20px;
+
+    }
+    li a{
+        text-decoration: none;
+        background-color: orangered;
+        color: white;
+        padding: 3px;
+    
+    }
+    footer{
+        background-color: black;
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+    footer p{
+        font-size: 20px;
+    }
+</style>
+<body>
+    <header>
+        <h1>Job Search Portal</h1>
+    </header>
+
+    <nav> 
+            <a href="#">Home</a>
+            <a href="#">Jobs</a> 
+            <a href="#">Companies</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+    </nav> 
+
+    <div class="one">
+        <h2>Find Your Dream Job</h2>
+        <form>
+            <input type="text" name="keywords"  placeholder="Keywords"> 
+            <input type="text" name="location" placeholder="Location"> 
+            <input type="text" name="company" placeholder="Company"> 
+            <button type="submit">Search</button> 
+        </form>
+    </div>
+
+    <div class="two">
+       <h2 style="color: white;">Latest Job Listings</h2>
+        <ul> 
+            <li> 
+                <h2><u>Web Developer</u></h2> 
+                <p><b>Company:</b> ABC Tech</p> 
+                <p><b>Location:</b> India</p> 
+                <p><b>Description:</b> Good Web Developer</p> 
+                <a href="#">Apply Now</a> 
+            </li> 
+            <li> 
+                <h2><u>Graphic Designer</u></h2> 
+                <p><b>Company:</b> XYZ Design</p> 
+                <p><b>Location:</b> India </p> 
+                <p><b>Description:</b> Good Graphic Designer</p> 
+                <a href="#">Apply Now</a> 
+            </li> 
+        </ul>
+    </div>
+
+    <footer> 
+        <p>Job Search Portal @2023</p> 
+    </footer> 
+</body>
+</html>
